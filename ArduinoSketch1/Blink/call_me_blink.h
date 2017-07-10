@@ -7,11 +7,4 @@
 
 #pragma once
 
-//#ifndef CALL_ME_BLINK_H_
-//#define CALL_ME_BLINK_H_
-
-
-void BLINK_LED(void);
-
-
-//#endif /* CALL_ME_BLINK_H_ */
+void BLINK_LED(int LED_TIME);

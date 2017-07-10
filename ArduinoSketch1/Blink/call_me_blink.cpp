@@ -2,11 +2,11 @@
 
 #include <Arduino.h>
 
-void BLINK_LED(void)
+void BLINK_LED(int LED_TIME)
 {
 	digitalWrite(LED_BUILTIN, HIGH);
-	delay(100);
+	delay(LED_TIME);
 	digitalWrite(LED_BUILTIN, LOW);
-	delay(100);
+	delay(LED_TIME);
 }
 
